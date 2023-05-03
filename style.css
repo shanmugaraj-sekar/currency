@@ -10,10 +10,15 @@
 .nav{
   padding-right: 60px;
 }
-.navbar-brand{font-family: 'Oswald', sans-serif;}
+.navbar-brand{font-family: 'Oswald', sans-serif;
+padding-left: 30px;
+}
 .nav-link{
  
   font-family: 'Oswald', sans-serif;
+}
+.nav-item{
+  padding-right: 40px;
 }
 #main{
   display: flex;
@@ -118,3 +123,51 @@ form button{
 form button:hover{
   background: #4534fe;
 }
+
+
+/*history*/
+.download{
+    
+  background-color:#0000009a;  
+  color: black;
+  text-align: center;
+}
+
+.subject-img{
+ 
+  border-radius: 25%;
+}
+
+
+.download h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:rgb(255, 255, 255);
+
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.download h1{
+  padding-top: 20px;
+  margin-bottom: 10px;
+  color:#2e382f;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+
+
+}
+.download a{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.download img{
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+
+  -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+  }
