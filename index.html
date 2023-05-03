@@ -19,113 +19,32 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-dark navbar-expand-md ">
-    <a href="#" class="navbar-brand">Currency Heaven</a>
+  <!--navbar-->
+  <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-md ">
+    <a href="#main" class="navbar-brand">Currency Heaven</a>
     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="navbar-collapse collapse" id="navbar" navbar>
       <ul class="navbar-nav  ms-auto">
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="converter.html" class="nav-link">Converter</a></li>
+        <li class="nav-item"><a href="histroy.html" class="nav-link">Currency histroy</a></li>
       </ul>
     </div>
   </nav>
 
-  <div id="main">
-    <div class="wrapper">
-      <header>Currency Converter</header>
-      <form action="#">
-        <div class="amount">
-          <p>Enter Amount</p>
-          <input type="text" value="1">
-        </div>
-        <div class="drop-list">
-          <div class="from">
-            <p>From</p>
-            <div class="select-box">
-              <img src="https://flagcdn.com/48x36/us.png" alt="flag">
-              <select>
-                <!-- Options tag are inserted from JavaScript -->
-              </select>
-            </div>
-          </div>
-          <div class="icon"><i class="fas fa-exchange-alt"></i></div>
-          <div class="to">
-            <p>To</p>
-            <div class="select-box">
-              <img src="https://flagcdn.com/48x36/np.png" alt="flag">
-              <select>
-                <!-- Options tag are inserted from JavaScript -->
-              </select>
-            </div>
-          </div>
-        </div>
-        <div class="exchange-rate">Getting exchange rate...</div>
-        <button>Get Exchange Rate</button>
-      </form>
+  <!--main page-->
+  <section id="main">
+    <div>
+      <h1>Hi Wellcome to Currency Heaven</h1>
+      <p>The ultimate destination for all things related to global currencies!!!... <br>Here we provide the Currency converter , currency history and etc..</p>
     </div>
-  </div>
-  <!--histroy-->
 
-  <section class="download">
-    <div class="container-fluid ">
-      <div class="row">
-        <div class="col-sm-4 download">
-          <img src="img/data-mini.jpeg" class="subject-img">
-          <h4>DATA MINING AND DATA WAREHOUSING</h4>
-          <a href="https://icedrive.net/s/gFvZ2uF2NZB7PSgtDQZTSfTYV2YX" class="btn  btn-lg active btn-dark"
-            role="button" aria-pressed="true" target="_blank">Download</a>
+  </section>
 
-        </div>
-        <div class="col-sm-4 download">
-          <img
-            src="img/nlp-natural-language-processing-cognitive-computing-technology-concept-virtual-screen-robotic-hand-touching-digital-interface_127544-332 (1).jpg"
-            class="subject-img">
-          <h4>NATURAL LEARNING PROCESSING</h4>
-          <a href="https://icedrive.net/s/CV3t7WxQkX7jb7ySxh9G7jDQNu9T" class="btn  btn-lg active btn-dark"
-            role="button" aria-pressed="true" target="_blank">Download</a>
-
-        </div>
-        <div class="col-sm-4 download">
-          <img src="img/deep-learning.jpeg" class="subject-img">
-          <h4>DEEP LEARNING</h4>
-          <a href="https://icedrive.net/s/WbBTth4aGNftiuGRZ7QAPyiVgXuN" class="btn  btn-lg active btn-dark"
-            role="button" aria-pressed="true" target="_blank">Download</a>
-
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid ">
-      <div class="row">
-        <div class="col-sm-4 download">
-          <img src="img/data-mini.jpeg" class="subject-img">
-          <h4>DATA MINING AND DATA WAREHOUSING</h4>
-          <a href="https://icedrive.net/s/gFvZ2uF2NZB7PSgtDQZTSfTYV2YX" class="btn  btn-lg active btn-dark"
-            role="button" aria-pressed="true" target="_blank">Download</a>
-
-        </div>
-        <div class="col-sm-4 download">
-          <img
-            src="img/nlp-natural-language-processing-cognitive-computing-technology-concept-virtual-screen-robotic-hand-touching-digital-interface_127544-332 (1).jpg"
-            class="subject-img">
-          <h4>NATURAL LEARNING PROCESSING</h4>
-          <a href="https://icedrive.net/s/CV3t7WxQkX7jb7ySxh9G7jDQNu9T" class="btn  btn-lg active btn-dark"
-            role="button" aria-pressed="true" target="_blank">Download</a>
-
-        </div>
-        <div class="col-sm-4 download">
-          <img src="img/deep-learning.jpeg" class="subject-img">
-          <h4>DEEP LEARNING</h4>
-          <a href="https://icedrive.net/s/WbBTth4aGNftiuGRZ7QAPyiVgXuN" class="btn  btn-lg active btn-dark"
-            role="button" aria-pressed="true" target="_blank">Download</a>
-
-        </div>
-      </div>
-    </div>
-</section>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"></script>
