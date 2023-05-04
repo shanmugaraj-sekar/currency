@@ -35,6 +35,9 @@
     top: 0;
     bottom: 0;
   }
+  #currency-processing h1{
+    font-family: 'Oswald', sans-serif; 
+   }
 
   @media only screen and (max-width: 600px) {
    

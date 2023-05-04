@@ -29,11 +29,12 @@ padding-left: 30px;
   padding: 0 10px;
  color: rgb(255, 255, 255);
  background: #000000;
-  font-family: 'Poppins', sans-serif;
+ 
 }
 #main h1{
   padding-top: 20px;
   font-size: 54px;
+  font-family: 'Oswald', sans-serif; 
 }
 #main p{
   padding-top: 20px;
@@ -41,6 +42,9 @@ padding-left: 30px;
   
   padding-left: 20%;
   padding-right: 20%;
+  font-family: 'Inter Tight', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Teko', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
